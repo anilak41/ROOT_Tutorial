@@ -1,4 +1,0 @@
-void plot() {
-  TGraph* gr = new TGraph("data.txt","%lg %*lg %lg");
-  gr->Draw();
-}
